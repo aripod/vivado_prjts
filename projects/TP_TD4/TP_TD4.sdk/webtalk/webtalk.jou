@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# 
+# Start of session at: Mon Jun 19 21:43:59 2017
+# Process ID: 24646
+# Current directory: /home/ariel/Documents/VHDL/Vivado_prjts/TP_TD4/TP_TD4.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/ariel/Documents/VHDL/Vivado_prjts/TP_TD4/TP_TD4.sdk/webtalk/webtalk.log
+# Journal file: /home/ariel/Documents/VHDL/Vivado_prjts/TP_TD4/TP_TD4.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

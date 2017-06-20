@@ -1,0 +1,39 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 50 -defaultsOSRD
+preplace port serial_data_Behavioral -pg 1 -y 360 -defaultsOSRD
+preplace port serial_data_Structural -pg 1 -y 510 -defaultsOSRD
+preplace port lrclk_Structural -pg 1 -y 490 -defaultsOSRD
+preplace port lrclk_Behavioral -pg 1 -y 280 -defaultsOSRD
+preplace port mclk_Structural -pg 1 -y 530 -defaultsOSRD
+preplace port mclk_Behavioral -pg 1 -y 380 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 70 -defaultsOSRD
+preplace inst TP_TD4_I2S_Structural_0 -pg 1 -lvl 3 -y 510 -defaultsOSRD
+preplace inst TP_TD4_I2S_Behavioral_0 -pg 1 -lvl 3 -y 360 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 450 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 390 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 140 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 50 NJ 50 NJ
+preplace netloc TP_TD4_I2S_Structural_0_serial_data 1 3 1 NJ
+preplace netloc TP_TD4_I2S_Structural_0_lrclk 1 3 1 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 470
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 450 590 800
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 300 450
+preplace netloc TP_TD4_I2S_Behavioral_0_serial_data 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 780
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 70 NJ 70 NJ
+preplace netloc TP_TD4_I2S_Structural_0_mclk 1 3 1 NJ
+preplace netloc TP_TD4_I2S_Behavioral_0_lrclk 1 0 4 30 280 NJ 280 NJ 280 1060
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 290 460 310 770
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 780
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 2 NJ 210 790
+preplace netloc TP_TD4_I2S_Behavioral_0_mclk 1 3 1 NJ
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 1 N
+levelinfo -pg 1 0 240 620 930 1080 -top 0 -bot 610
+",
+}
+{
+   da_axi4_cnt: "2",
+   da_ps7_cnt: "1",
+}

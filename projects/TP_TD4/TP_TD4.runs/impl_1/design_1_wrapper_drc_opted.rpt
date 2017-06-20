@@ -1,0 +1,58 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (lin64) Build 1846317 Fri Apr 14 18:54:47 MDT 2017
+| Date         : Mon Jun 19 20:15:24 2017
+| Host         : ariel-GT70 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt
+| Design       : design_1_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 2          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/TP_TD4_I2S_Behavioral_0/U0/TP_TD4_I2S_Behavioral_v1_0_S00_AXI_inst/toggle_lrclk_i_2 is driving clock pin of 6 cells. This could lead to large hold time violations. First few involved cells are:
+    design_1_i/TP_TD4_I2S_Behavioral_0/U0/TP_TD4_I2S_Behavioral_v1_0_S00_AXI_inst/counter_lrclk_reg[0] {FDRE}
+    design_1_i/TP_TD4_I2S_Behavioral_0/U0/TP_TD4_I2S_Behavioral_v1_0_S00_AXI_inst/counter_lrclk_reg[1] {FDRE}
+    design_1_i/TP_TD4_I2S_Behavioral_0/U0/TP_TD4_I2S_Behavioral_v1_0_S00_AXI_inst/counter_lrclk_reg[2] {FDRE}
+    design_1_i/TP_TD4_I2S_Behavioral_0/U0/TP_TD4_I2S_Behavioral_v1_0_S00_AXI_inst/counter_lrclk_reg[3] {FDRE}
+    design_1_i/TP_TD4_I2S_Behavioral_0/U0/TP_TD4_I2S_Behavioral_v1_0_S00_AXI_inst/delay_reg {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/TP_TD4_I2S_Structural_0/U0/TP_TD4_I2S_Structural_v1_0_S00_AXI_inst/toggle_lrclk_i_2 is driving clock pin of 6 cells. This could lead to large hold time violations. First few involved cells are:
+    design_1_i/TP_TD4_I2S_Structural_0/U0/TP_TD4_I2S_Structural_v1_0_S00_AXI_inst/counter_lrclk_reg[0] {FDRE}
+    design_1_i/TP_TD4_I2S_Structural_0/U0/TP_TD4_I2S_Structural_v1_0_S00_AXI_inst/counter_lrclk_reg[1] {FDRE}
+    design_1_i/TP_TD4_I2S_Structural_0/U0/TP_TD4_I2S_Structural_v1_0_S00_AXI_inst/counter_lrclk_reg[2] {FDRE}
+    design_1_i/TP_TD4_I2S_Structural_0/U0/TP_TD4_I2S_Structural_v1_0_S00_AXI_inst/counter_lrclk_reg[3] {FDRE}
+    design_1_i/TP_TD4_I2S_Structural_0/U0/TP_TD4_I2S_Structural_v1_0_S00_AXI_inst/delay_reg__0 {FDRE}
+
+Related violations: <none>
+
+
